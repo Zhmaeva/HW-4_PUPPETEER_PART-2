@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
+    "watchAll": "jest --watchAll --detectOpenHandles",
     "cucumber": "cucumber-js"
   },
   "author": "zhmaeva",
@@ -16,5 +17,8 @@
     "jest-puppeteer": "^6.0.0",
     "puppeteer": "^13.3.2",
     "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^7.0.0"
   }
 }
