@@ -1,0 +1,49 @@
+# Dependencies
+node_modules
+
+# Production
+build/
+lib/
+bin/
+dist/
+screenshots/
+
+# Generated files
+__tests__/puppeteer
+**/*.tsbuildinfo
+*.api.json
+*.tgz
+yarn.lock
+.docusaurus/
+.cache-loader
+test/output-*/
+.dev_profile*
+coverage/
+generated/
+.eslintignore*
+.eslintrc.json*
+.eslintcache
+.prettierrc.json*
+.selectors.js*
+.cache/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# IDE Artifacts
+.vscode/*
+!.vscode/extensions.json
+!.vscode/*.template.json
+.devcontainer
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Wireit
+.wireit
